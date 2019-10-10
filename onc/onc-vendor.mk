@@ -69,6 +69,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onc/proprietary/lib/libwfduibcinterface.so:system/lib/libwfduibcinterface.so \
     vendor/xiaomi/onc/proprietary/lib/libwfduibcsink.so:system/lib/libwfduibcsink.so \
     vendor/xiaomi/onc/proprietary/lib/libwfduibcsinkinterface.so:system/lib/libwfduibcsinkinterface.so \
+    vendor/xiaomi/onc/proprietary/lib/fm_helium.so:system/lib/fm_helium.so \
+    vendor/xiaomi/onc/proprietary/lib/libfm-hci.so:system/lib/libfm-hci.so \
     vendor/xiaomi/onc/proprietary/lib/libwfduibcsrc.so:system/lib/libwfduibcsrc.so \
     vendor/xiaomi/onc/proprietary/lib/soundfx/libvolumelistener.so:system/lib/soundfx/libvolumelistener.so \
     vendor/xiaomi/onc/proprietary/lib/libwfduibcsrcinterface.so:system/lib/libwfduibcsrcinterface.so \
@@ -88,6 +90,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onc/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
     vendor/xiaomi/onc/proprietary/lib64/libdpmctmgr.so:system/lib64/libdpmctmgr.so \
     vendor/xiaomi/onc/proprietary/lib64/libdpmfdmgr.so:system/lib64/libdpmfdmgr.so \
+    vendor/xiaomi/onc/proprietary/lib64/fm_helium.so:system/lib64/fm_helium.so \
+    vendor/xiaomi/onc/proprietary/lib64/libfm-hci.so:system/lib64/libfm-hci.so \
     vendor/xiaomi/onc/proprietary/lib64/libdpmframework.so:system/lib64/libdpmframework.so \
     vendor/xiaomi/onc/proprietary/lib64/libdpmtcm.so:system/lib64/libdpmtcm.so \
     vendor/xiaomi/onc/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
@@ -127,4 +131,5 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     WfdService \
     WfdCommon \
+    vendor.qti.hardware.fm@1.0 \
     chargeonlymode
